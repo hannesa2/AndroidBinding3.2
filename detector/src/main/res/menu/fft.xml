@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_detect"
+        android:orderInCategory="100"
+        android:title="Detect"
+        android:icon="@drawable/ic_detection_off"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_gain"
+        android:orderInCategory="100"
+        android:title="Gain"
+        app:showAsAction="always"/>
+</menu>

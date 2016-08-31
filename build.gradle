@@ -5,7 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.3'
+        classpath 'com.android.tools.build:gradle:3.2.0-beta03'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -25,9 +25,9 @@ allprojects {
 }
 
 ext {
-    defaultCompileSdkVersion = 26
+    defaultCompileSdkVersion = 28
     defaultMinSdkVersion = 19
-    defaultTargetSdkVersion = 25
+    defaultTargetSdkVersion = 'P'
     defaultBuildToolsVersion = "28.0.1"
-    defaultSupportLibVersion = "27.1.1"
+    defaultSupportLibVersion = "28.0.0-alpha3"
 }
