@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/brown_light</color>
+    <color name="colorPrimaryDark">@color/brown</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="brown">#945824</color>
+    <color name="brown_light">#cc7b35</color>
+    <color name="brown_light_very">#f0c096</color>
+    <color name="primary_transparent">#1133b5e5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background_black_transparent">#77000000</color>
+
+    <color name="header_background">#4285f4</color>
+    <color name="header_text">#ffffff</color>
+</resources>
